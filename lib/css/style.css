@@ -1,0 +1,49 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-family: 'Eczar', serif;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+#all-content{
+    display: flex;
+    background-color: whitesmoke;
+}
+
+#general{
+    margin-top: 70px;
+    align-content: center;
+}
+
+.left_image{
+    justify-content: flex-start;
+
+}
+
+#general_info{
+    height: 700px
+}
+
+
