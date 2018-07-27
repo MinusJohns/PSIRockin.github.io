@@ -7,11 +7,13 @@ ul{
 }
 
 li {
+    list-style-type: none;
     float: left;
     font-family: 'Eczar', serif;
 }
 
 li a {
+    list-style-type: none;
     display: block;
     color: black;
     text-align: center;
