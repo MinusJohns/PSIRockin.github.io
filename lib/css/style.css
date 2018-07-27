@@ -29,20 +29,72 @@ li a:hover {
 #all-content{
     display: flex;
     background-color: whitesmoke;
+    flex-wrap: wrap;
 }
 
 #general{
-    margin-top: 70px;
-    align-content: center;
-}
-
-.left_image{
-    justify-content: flex-start;
-
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 #general_info{
-    height: 700px
+    font-family: 'Dosis', sans-serif;
+    margin: 30px;
+    width: 70%;
+}
+
+#about{
+    background-color: rgb(93, 152, 247);
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    height: 700px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#about_me{
+    font-family: 'Dosis', sans-serif;
+    color: whitesmoke;
+    margin: 40px;
+    width: 60%;
+}
+
+#school{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+#school_info{
+    font-family: 'Dosis', sans-serif;
+    margin: 30px;
+    width: 70%;
+}
+
+.left_image{
+    border-radius: 50%;
+}
+
+.right_image{
+    border-radius: 15%;
+    margin: 40px;
+}
+
+h1{
+    font-size: 50px
+}
+
+p{
+    font-size: 24px;
 }
 
 
