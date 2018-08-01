@@ -166,3 +166,13 @@ p{
         align-content: center;
     }            
 }
+
+@media (max-width: 1085px){
+    h1{
+        font-size: 36px
+    }
+    
+    p{
+        font-size: 12px;
+    }
+}
