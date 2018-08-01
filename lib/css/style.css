@@ -1,4 +1,4 @@
-ul{
+#NavBar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@ ul{
     background-color: rgba(0, 0, 0, 0);
 }
 
-li {
+#NavBar li {
     list-style-type: none;
     float: left;
     font-family: 'Eczar', serif;
