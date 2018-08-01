@@ -148,7 +148,22 @@ p{
     font-size: 24px;
 }
 
+@media (max-width: 1085px){
+    h1{
+        font-size: 36px
+    }
+    
+    p{
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 812px){
+    iframe{
+        width: 300px;
+        length: 420px;
+    }
+
     #general{
         flex-direction: column;
         align-content: center;
@@ -167,12 +182,3 @@ p{
     }            
 }
 
-@media (max-width: 1085px){
-    h1{
-        font-size: 36px
-    }
-    
-    p{
-        font-size: 12px;
-    }
-}
