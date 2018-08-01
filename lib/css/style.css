@@ -148,4 +148,17 @@ p{
     font-size: 24px;
 }
 
-
+@media (max-width: 812px){
+    #general{
+        flex-direction: column
+    }
+    #about{
+        flex-direction: column
+    }
+    #school{
+        flex-direction: column
+    }
+    #persoanl-skill{
+        flex-direction: column
+    }            
+}
