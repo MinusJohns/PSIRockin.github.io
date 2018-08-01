@@ -158,7 +158,7 @@ p{
         align-content: center;
     }
     #school{
-        flex-direction: column;
+        flex-flow: column wrap;
         align-content: center;
     }
     #persoanl-skill{
