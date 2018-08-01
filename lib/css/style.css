@@ -150,15 +150,19 @@ p{
 
 @media (max-width: 812px){
     #general{
-        flex-direction: column
+        flex-direction: column;
+        align-content: center;
     }
     #about{
-        flex-direction: column
+        flex-direction: column;
+        align-content: center;
     }
     #school{
-        flex-direction: column
+        flex-direction: column;
+        align-content: center;
     }
     #persoanl-skill{
-        flex-direction: column
+        flex-direction: column;
+        align-content: center;
     }            
 }
