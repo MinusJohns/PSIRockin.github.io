@@ -161,7 +161,19 @@ p{
 @media (max-width: 812px){
     iframe{
         width: 300px;
-        length: 420px;
+        height: auto;
+    }
+
+    div{
+       height: auto; 
+       overflow-x: hidden;
+    }
+
+    img{
+        width: 60%;
+        height: auto;
+        flex-direction: column;
+        align-content: center;
     }
 
     #general{
@@ -179,6 +191,16 @@ p{
     #persoanl-skill{
         flex-direction: column;
         align-content: center;
-    }            
+    }
+    
+    #skills{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #awards{
+        flex-direction: column;
+        align-content: center;
+    }
 }
 
