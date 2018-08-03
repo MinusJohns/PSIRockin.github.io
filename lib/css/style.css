@@ -56,7 +56,7 @@ li a:hover {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 700px;
+    height: auto;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -92,10 +92,11 @@ li a:hover {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 700px;
     align-items: center;
+    align-self: center;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    justify-items: center;
+    flex-wrap: wrap;
     color: whitesmoke;
 }
 
@@ -137,7 +138,9 @@ li a:hover {
 
 .right_image{
     border-radius: 15%;
-    margin: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h1{
@@ -172,18 +175,21 @@ p{
     img{
         width: 60%;
         height: auto;
-        flex-direction: column;
-        align-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+
     }
 
     #general{
         flex-direction: column;
         align-content: center;
     }
+
     #about{
         flex-direction: column;
         align-content: center;
     }
+
     #school{
         flex-flow: column wrap;
         align-content: center;
@@ -191,16 +197,21 @@ p{
     #persoanl-skill{
         flex-direction: column;
         align-content: center;
+        align-items: center;
     }
     
     #skills{
         flex-direction: column;
-        align-content: center;
+        width: 80%;
+        height: auto;
+        align-self: center;
     }
 
     #awards{
         flex-direction: column;
-        align-content: center;
+        width: 80%;
+        height: auto;
+        align-self: center;
     }
 }
 
