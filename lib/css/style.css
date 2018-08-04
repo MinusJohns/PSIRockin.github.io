@@ -26,7 +26,7 @@ li a {
 }
 
 li a:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.65);
     color: white;
 }
 
@@ -151,6 +151,18 @@ p{
     font-size: 24px;
 }
 
+footer{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+}
+
 @media (max-width: 1085px){
     h1{
         font-size: 36px
@@ -159,11 +171,30 @@ p{
     p{
         font-size: 12px;
     }
+    #skills p{
+        font-size: 20px;
+    }
+    
+    #skills h1{
+        font-size: 36px;
+    }
+    
+    #awards p{
+        font-size: 20px;
+    }
+    
+    #awards h1{
+        font-size: 36px;
+    }
 }
 
 @media (max-width: 812px){
+    #NavBar li a{
+        font-size: 14px;
+    }
+
     iframe{
-        width: 300px;
+        width: 100%;
         height: auto;
     }
 
@@ -212,6 +243,14 @@ p{
         width: 80%;
         height: auto;
         align-self: center;
+    }
+
+    #school p{
+        font-size: 10px;
+    }
+    
+    #school h1{
+        font-size: 24px;
     }
 }
 
